@@ -1,0 +1,148 @@
+html {
+	min-width: 1050px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #000000;
+	background-color: #eeeeee;
+}
+
+a {
+text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	color: #000000;
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	height: 38px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	height: 27px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+h1.caption {
+	color: #006699;
+	background-color: #eeeeee;
+}
+
+hr.caption {
+	height: 1px;
+	border: none;
+	border-top: 1px solid #cccccc;
+	margin: 0px;
+}
+
+hr.divider {
+	height: 1px;
+	border: none;
+	border-top: 1px dashed #dddddd;
+	margin: 0px;
+}
+
+h2.list-caption {
+	float: left;
+}
+
+p.list-date {
+	float: right;
+	height: 27px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+div.header {
+	background-color: #1b93df;
+	width: auto;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.body {
+	width: 1000px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+div.list {
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.listitem {
+	height: 57px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.header ul {
+	width: 1000px;
+	height: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+div.header ul li {
+	float: left;
+	width: 250px;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.header ul li a:link, div.header ul li a:visited {
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+	color: #ffffff;
+	background-color: #1b93df;
+	width: 250px;
+	height: 20px;
+	margin: 0px;
+	padding-top: 17px;
+	padding-bottom: 13px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.header ul li a:hover, div.header ul li a:active {
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+	color: #ffffff;
+	background-color: #0066cc;
+	width: 250px;
+	height: 20px;
+	margin: 0px;
+	padding-top: 17px;
+	padding-bottom: 13px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
