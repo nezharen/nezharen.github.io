@@ -10,7 +10,9 @@ body {
 }
 
 a {
-text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -21,18 +23,29 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 h1 {
-	height: 38px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	font-size: 32px;
+	font-weight: bold;
 }
 
 h2 {
-	height: 27px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
 }
 
 h1.caption {
+	height: 38px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	color: #006699;
 	background-color: #eeeeee;
 }
@@ -52,7 +65,10 @@ hr.divider {
 }
 
 h2.list-caption {
+	height: 27px;
 	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 p.list-date {
@@ -66,8 +82,6 @@ div.header {
 	background-color: #1b93df;
 	width: auto;
 	height: 50px;
-	margin: 0px;
-	padding: 0px;
 }
 
 div.body {
@@ -75,23 +89,16 @@ div.body {
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding: 0px;
 }
 
 div.list {
 	background-color: #ffffff;
-	margin: 0px;
-	padding: 0px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 div.listitem {
 	height: 57px;
-	margin: 0px;
-	padding: 0px;
 }
 
 div.header ul {
@@ -123,11 +130,8 @@ div.header ul li a:link, div.header ul li a:visited {
 	background-color: #1b93df;
 	width: 250px;
 	height: 20px;
-	margin: 0px;
 	padding-top: 17px;
 	padding-bottom: 13px;
-	padding-left: 0px;
-	padding-right: 0px;
 }
 
 div.header ul li a:hover, div.header ul li a:active {
@@ -139,10 +143,7 @@ div.header ul li a:hover, div.header ul li a:active {
 	background-color: #0066cc;
 	width: 250px;
 	height: 20px;
-	margin: 0px;
 	padding-top: 17px;
 	padding-bottom: 13px;
-	padding-left: 0px;
-	padding-right: 0px;
 }
 
