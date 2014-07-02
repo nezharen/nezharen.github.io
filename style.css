@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-family: 'Simsun', 'LiSongPro', 'AR PL Uming', serif;
+	font-family: 'Simhei', 'Simsun', 'LiSongPro', 'AR PL Uming', serif;
 	margin: 0px;
 	padding: 0px;
 	color: #000000;
@@ -15,15 +15,15 @@ a:link, a:visited {
 	margin: 0px;
 	padding: 0px;
 	text-decoration: none;
-	color: #2d64b3;
+	color: #444444;
 	background-color: transparent;
 }
 
 a:hover, a:active {
 	margin: 0px;
 	padding: 0px;
-	text-decoration: underline;
-	color: #2d64b3;
+	font-weight: bold;
+	color: #444444;
 	background-color: transparent;
 }
 
@@ -82,8 +82,9 @@ div.body {
 }
 
 div.body-main {
+	border-radius: 5px;
 	background-color: #ffffff;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 50px;
 }
 
@@ -141,6 +142,7 @@ div.header ul li a:hover, div.header ul li a:active {
 	display: block;
 	text-align: center;
 	font-size: 16px;
+	font-weight: normal;
 	color: #ffffff;
 	background-color: #222222;
 	text-decoration: none;
@@ -189,7 +191,7 @@ h2.note-caption {
 	padding-top: 16px;
 	margin-bottom: 16px;
 	padding-left: 3px;
-	color: #2d64b3;
+	color: #444444;
 }
 
 p.note-body {
