@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>首页</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div class="header">
- <ul>
-  <li><a class="currentpage" href="index.html">首页</a></li>
-  <li><a href="note.html">日志</a></li>
-  <li><a href="share.html">分享</a></li>
-  <li><a href="about.html">关于</a></li>
- </ul>
-</div>
-<div class="body">
- <h1 class="caption">nezharen的个人主页</h1>
- <div class="body-main">
-  <div class="listitem">
-   <a href="note/2.html">【日志】Web前端设计经验总结</a>
-   <p class="list-date">2014-07-02</p>
+ <head>
+  <title>首页</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+ </head>
+ <body>
+  <div id="header">
+   <div id="header-caption">nezharen的个人主页</div>
+   <div id="header-links">
+    <ul>
+     <li><a class="header-link" href="about.html">关于</a></li>
+     <li><a class="header-link" href="share.html">分享</a></li>
+     <li><a class="header-link" href="note.html">日志</a></li>
+     <li><a id="current-header-link" class="header-link" href="index.html">首页</a></li>
+    </ul>
+   </div>
   </div>
-  <hr class="divider" />
-  <div class="listitem">
-   <a href="https://github.com/nezharen/nezharen.github.io/" target="_blank">【分享】Web前端第一次作业（本个人主页）源代码</a>
-   <p class="list-date">2014-06-30</p>
+  <div class="clearfix">
+   <div id="aside">
+    <div class="session">
+    </div>
+   </div>
+   <div id="body">
+    <div class="session">
+     <a href="note/2.html"><h1>【日志】Web前端设计经验总结</h1></a>
+     <hr />
+     <p>不得不说Web前端设计是一个对多方面能力，尤其是美工要求都很高的工作。Web前端的最终效果往往反映了一个前端设计师的审美水平。不过，Web前端设计也是有一定技巧的，适当的总结一些经验可以让设计出的网页更加美观。</p>
+    </div>
+    <div class="session">
+     <a href="https://github.com/nezharen/nezharen.github.io/" target="_blank"><h1>【分享】Web前端第一次作业（本个人主页）源代码</h1></a>
+     <hr />
+     <p>Web前端第一次作业（本个人主页）源代码的链接，发布在Github上。本个人主页借助Github Pages进行发布。</p>
+    </div>
+    <div class="session">
+     <a href="note/1.html"><h1>【日志】欢迎访问我的个人主页!</h1></a>
+     <hr />
+     <p>僕のホームページへ、ようこそ！</p>
+     <p>大家好，我是nezharen，欢迎访问我的个人主页！通过我在大学里学习Web前端课程的过程中，此个人网页开始诞生并逐渐完善。大二的暑假小学期教授的是Web前端及后台的一系列流行技术，通过学习本课程，我将会逐渐掌握更多完善本个人网页的相关知识。非常感谢这一次的小学期让我们学习到了一些非常实用的技术...</p>
+    </div>
+    <div class="session">
+     <a href="about.html"><h1>【关于】关于我的个人介绍</h1></a>
+     <hr />
+     <p>关于我的个人信息。</p>
+    </div>
+   </div>
   </div>
-  <hr class="divider" />
-  <div class="listitem">
-   <a href="note/1.html">【日志】欢迎访问我的个人主页！</a>
-   <p class="list-date">2014-06-30</p>
+  <div id="footer">
   </div>
-  <hr class="divider" />
-  <div class="listitem">
-   <a href="about.html">【关于】关于我的个人介绍</a>
-   <p class="list-date">2014-06-30</p>
-  </div>
- </div>
-</div>
-</body>
-
+ </body>
 </html>
 
