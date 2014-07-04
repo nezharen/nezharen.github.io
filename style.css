@@ -39,9 +39,13 @@ div#header-caption {
 	font-weight: bold;
 }
 
-a.header-link{
+a.header-link {
 	text-align: center;
 	font-weight: bold;
+}
+
+p.date {
+	text-align: right;
 }
 
 /* color */
@@ -56,7 +60,7 @@ div, span, h1, h2, h3, h4, h5, h6, p, a, li {
 }
 
 div#header, div#footer {
-	background-color: #111111;
+	background-color: #141414;
 }
 
 div#header-caption {
@@ -76,6 +80,14 @@ a.header-link:link, a.header-link:visited {
 a.header-link:hover, a.header-link:active {
 	color: #ffffff;
 	background-color: #333333;
+}
+
+a.header-link {
+	transition: background-color, 750ms;
+}
+
+p.date {
+	color: #555555;
 }
 
 /* a */
