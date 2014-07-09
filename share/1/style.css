@@ -1,0 +1,109 @@
+/* font */
+body, div, span, p, a, li {
+	font-family: "Microsoft YaHei", helvetica, arial;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Microsoft YaHei", helvetica, arial;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.17em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.83em;
+}
+
+h6 {
+	font-size: 0.75em;
+}
+
+div#header-caption {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+p.date {
+	text-align: right;
+}
+
+/* color */
+body {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+div, span, h1, h2, h3, h4, h5, h6, p, a, li {
+	color: #000000;
+	background-color: transparent;
+}
+
+div#header {
+	background-color: #141414;
+}
+
+div#header-caption {
+	color: #ffffff;
+}
+
+p.date {
+	color: #555555;
+}
+
+/* a */
+a {
+	text-decoration: none;
+}
+
+/* layout */
+html {
+	min-width: 1050px;
+}
+
+body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+div#header {
+	width: auto;
+	height: 150px;
+}
+
+div#body {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+div#header-caption {
+	height: 120px;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+div.session {
+	border: 1px solid #dddddd;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
