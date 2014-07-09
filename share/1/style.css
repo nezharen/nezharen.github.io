@@ -73,7 +73,7 @@ a {
 
 /* layout */
 html {
-	min-width: 1050px;
+	min-width: 1300px;
 }
 
 body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li {
@@ -88,7 +88,7 @@ div#header {
 }
 
 div#body {
-	width: 1000px;
+	width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
@@ -100,10 +100,19 @@ div#header-caption {
 	padding-top: 30px;
 }
 
-div.session {
+div#remark-session {
 	border: 1px solid #dddddd;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 20px;
+}
+
+div#image-session {
+	height: 800px;
+}
+
+img#image {
+	width: 1280px;
+	height: 800px;
 }
 

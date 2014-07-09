@@ -1,6 +1,5 @@
 {
- "img":"image/ksp.png",
- "remark-pages":
+ "remarkPages":
  [
   {
    "remarks":
@@ -9,7 +8,7 @@
     {"author":"nezharen","remark":"hahahahaha"},
     {"author":"nezharen","remark":"hahahahaha"},
     {"author":"nezharen","remark":"hahahahaha"},
-    {"author":"nezharen","remark":"hahahahaha"},
+    {"author":"nezharen","remark":"hahahahaha"}
    ]
   },
   {
@@ -19,7 +18,7 @@
     {"author":"nezharen","remark":"hahahahaha"},
     {"author":"nezharen","remark":"hahahahaha"},
     {"author":"nezharen","remark":"hahahahaha"},
-    {"author":"nezharen","remark":"hahahahaha"},
+    {"author":"nezharen","remark":"hahahahaha"}
    ]
   }
  ]

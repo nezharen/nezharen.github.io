@@ -1,0 +1,9 @@
+{
+ "news":
+ [
+  {"titie":"剑灵","img":"image/blade-and-soul.jpg"},
+  {"titie":"Kerbal Space Program","img":"image/ksp.png"},
+  {"titie":"龙之谷","img":"image/dragon.jpg"}
+ ]
+}
+
