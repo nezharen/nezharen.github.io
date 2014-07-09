@@ -10,7 +10,7 @@ function change()
 	if (this.readyState==4 && this.status==200)
 	{
 		var obj = JSON.parse(this.responseText);
-		document.getElementById("header-caption").innerText = obj.text;
+		alert(obj.text);
 	}
 }
 function test()
