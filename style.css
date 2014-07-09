@@ -59,7 +59,7 @@ div, span, h1, h2, h3, h4, h5, h6, p, a, li {
 	background-color: transparent;
 }
 
-div#header, div#footer {
+div#header {
 	background-color: #141414;
 }
 
@@ -121,11 +121,6 @@ body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li {
 div#header {
 	width: auto;
 	height: 250px;
-}
-
-div#footer {
-	width: auto;
-	height: 100px;
 }
 
 div#body {
