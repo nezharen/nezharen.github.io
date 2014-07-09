@@ -4,44 +4,20 @@
   <title>图片新闻轮播设计</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link rel="stylesheet" type="text/css" href="style.css" />
-<script>
-function change()
-{
-	if (this.readyState==4 && this.status==200)
-	{
-		var obj = JSON.parse(this.responseText);
-		alert(obj.text);
-	}
-}
-function test()
-{
-	var client;
-	if (window.XMLHttpRequest)
-	{
-		client = new XMLHttpRequest();
-	}
-	else
-	{
-		client = new ActiveXObject("Microsoft.XMLHTTP");
-	}
-	client.onreadystatechange = change;
-	client.open("GET", "test.json", true);
-	client.send();
-}
-</script>
+  <script src="jquery.js"></script>
+  <script src="ajax.js"></script>
  </head>
  <body>
   <div id="header">
    <div id="header-caption">图片新闻轮播设计</div>
   </div>
   <div id="body">
-   <div class="session">
-
+   <div id="image-session" class="session">
+   </div>
+   <div id="remark-session" class="session">
    </div>
   </div>
-<script>
-test();
-</script>
+  <script>gotoNews(1);</script>
  </body>
 </html>
 
