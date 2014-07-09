@@ -15,7 +15,15 @@ function change()
 }
 function test()
 {
-	var client = new XMLHttpRequest();
+	var client;
+	if (window.XMLHttpRequest)
+	{
+		client = new XMLHttpRequest();
+	}
+	else
+	{
+		client = new ActiveXObject("Microsoft.XMLHTTP");
+	}
 	client.onreadystatechange = change;
 	client.open("GET", "test.json", true);
 	client.send();
