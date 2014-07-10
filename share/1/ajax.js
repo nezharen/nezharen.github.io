@@ -1,10 +1,15 @@
 var newsNum, newsCount, remarkPageNum, remarkPageCount, timer;
 
-function processNewsData(data) {
-	newsNum = data.news.length;
+function loadNewsData(data) {
 	$("img#image").attr("src", data.news[newsCount].img);
+	$("img#image").fadeIn("slow");
 	$("div#image-caption").text(data.news[newsCount].caption);
 	$("a.image-link").attr("href", data.news[newsCount].href);
+}
+
+function processNewsData(data) {
+	newsNum = data.news.length;
+	$("img#image").fadeOut("slow", (function (data) {return function() {loadNewsData(data);}})(data));
 }
 
 function gotoNews(x) {
