@@ -41,8 +41,7 @@ function processRemarkPageData(data) {
 	remarkPageNum = data.remarkPages.length;
 	$("#remark-links p").text("第" + (remarkPageCount + 1) + "页，共" + remarkPageNum + "页");
 	$("#remark-session").empty();
-	for (var i = 0; i < data.remarkPages[remarkPageCount].remarks.length; i++)
-	{
+	for (var i = 0; i < data.remarkPages[remarkPageCount].remarks.length; i++) {
 		if (i > 0)
 			$("#remark-session").append($("<hr />"));
 		var remarkDiv = $("<div class='remark-div' />");
@@ -91,14 +90,40 @@ function gotoFirstRemarkPage() {
 		alert("已是第一页。");
 }
 
+function getCookie() {
+	var c_start = document.cookie.indexOf("lastViewLink=");
+	if (c_start != -1) {
+		c_start = c_start + 13;
+		var c_end = document.cookie.indexOf(";", c_start);
+		if (c_end == -1)
+			c_end = document.cookie.length;
+		return unescape(document.cookie.substring(c_start, c_end));
+	}
+	return "";
+}
+
+function setCookie() {
+	var exdate = new Date();
+	exdate.setDate(exdate.getDate() + 365);
+	document.cookie = "lastViewLink=" + escape($("a.image-link").attr("href")) + ";expires=" + exdate.toGMTString()
+}
+
+function checkCookie() {
+	var s = getCookie();
+	if ((s != null) && (s != ""))
+		alert("lastViewLink=" + s);
+}
+
 function getReady() {
-	gotoNews(0);
-	gotoRemarkPage(0);
 	$("a#gotoPreviousNews").click(gotoPreviousNews);
 	$("a#gotoNextNews").click(gotoNextNews);
 	$("a#gotoFirstRemarkPage").click(gotoFirstRemarkPage);
 	$("a#gotoPreviousRemarkPage").click(gotoPreviousRemarkPage);
 	$("a#gotoNextRemarkPage").click(gotoNextRemarkPage);
 	$("a#gotoLastRemarkPage").click(gotoLastRemarkPage);
+	$("a.image-link").click(setCookie);
+	gotoNews(0);
+	gotoRemarkPage(0);
+	checkCookie();
 }
 
