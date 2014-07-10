@@ -13,9 +13,22 @@
   </div>
   <div id="body">
    <div id="image-session">
-    <img id="image" />
+    <a class="image-link" href="javascript:void(0);" target="_blank"><img id="image" /></a>
+    <a id="gotoPreviousNews" href="javascript:void(0);"><img src="image/left.png" /></a>
+    <a id="gotoNextNews" href="javascript:void(0);"><img src="image/right.png" /></a>
+    <div id="image-caption">
+    </div>
    </div>
    <div id="remark-session">
+   </div>
+   <div id="remark-links">
+    <ul>
+     <li><a class="remark-link" id="gotoLastRemarkPage" href="javascript:void(0);">尾页</a></li>
+     <li><a class="remark-link" id="gotoNextRemarkPage" href="javascript:void(0);">下一页</a></li>
+     <li><a class="remark-link" id="gotoPreviousRemarkPage" href="javascript:void(0);">上一页</a></li>
+     <li><a class="remark-link" id="gotoFirstRemarkPage" href="javascript:void(0);">首页</a></li>
+    </ul>
+    <p></p>
    </div>
   </div>
   <script>getReady();</script>

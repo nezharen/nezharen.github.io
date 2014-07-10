@@ -39,8 +39,18 @@ div#header-caption {
 	font-weight: bold;
 }
 
+div#image-caption {
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+a.remark-link {
+	text-align: center;
+	font-weight: bold;
+}
+
 p.date {
-	text-align: right;
+	font-size: 0.83em;
 }
 
 /* color */
@@ -60,6 +70,48 @@ div#header {
 
 div#header-caption {
 	color: #ffffff;
+}
+
+div#image-caption {
+	background-color: #000000;
+	color: #ffffff;
+	filter:alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	overflow: hidden;
+}
+
+a#gotoPreviousNews, a#gotoNextNews {
+	overflow: hidden;
+	transition: filter, 300ms;
+	transition: -moz-opacity, 300ms;
+	transition: opacity, 300ms;
+}
+
+a#gotoPreviousNews:link, a#gotoPreviousNews:visited, a#gotoNextNews:link, a#gotoNextNews:visited {
+	filter:alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+
+a#gotoPreviousNews:hover, a#gotoPreviousNews:active, a#gotoNextNews:hover, a#gotoNextNews:active {
+	filter:alpha(opacity=100);
+	-moz-opacity: 1;
+	opacity: 1;
+}
+
+a.remark-link:link, a.remark-link:visited {
+	color: #ffffff;
+	background-color: #141414;
+}
+
+a.remark-link:hover, a.remark-link:active {
+	color: #ffffff;
+	background-color: #333333;
+}
+
+a.remark-link {
+	transition: background-color, 750ms;
 }
 
 p.date {
@@ -109,10 +161,83 @@ div#remark-session {
 
 div#image-session {
 	height: 800px;
+	position: relative;
+}
+
+div#image-caption {
+	width: 1270px;
+	height: 50px;
+	padding-left: 10px;
+	position: absolute;
+	top: 750px;
+	left: 0px;
+	right: 0px;
+	Z-index: 1;
+}
+
+a#gotoPreviousNews {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	Z-index: 1;
+}
+
+a#gotoNextNews {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	top: 350px;
+	right: 0px;
+	Z-index: 1;
+}
+
+div.remark-div {
+	min-height: 132px;
 }
 
 img#image {
 	width: 1280px;
 	height: 800px;
+}
+
+img.photo {
+	width: 93px;
+	height: 130px;
+	float: left;
+	margin-right: 20px;
+	border: 1px solid #dddddd;
+}
+
+p.author {
+	padding-top: 5px;
+}
+
+
+div#remark-links {
+	height: 30px;
+} 
+
+div#remark-links ul {
+	width: 640px;
+	height: 30px;
+	float: right;
+	list-style-type: none;
+}
+
+div#remark-links ul li {
+	width: 150px;
+	height: 30px;
+	float: right;
+	margin-left: 10px;
+}
+
+a.remark-link {
+	display: block;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	padding-top: 5px;
 }
 

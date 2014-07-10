@@ -1,9 +1,9 @@
 {
  "news":
  [
-  {"titie":"剑灵","img":"image/blade-and-soul.jpg"},
-  {"titie":"Kerbal Space Program","img":"image/ksp.png"},
-  {"titie":"龙之谷","img":"image/dragon.jpg"}
+  {"caption":"剑灵","img":"image/blade-and-soul.jpg","href":"http://bns.qq.com/"},
+  {"caption":"Kerbal Space Program","img":"image/ksp.png","href":"http://kerbalspaceprogram.com/"},
+  {"caption":"龙之谷","img":"image/dragon.jpg","href":"http://dn.sdo.com/"}
  ]
 }
 
