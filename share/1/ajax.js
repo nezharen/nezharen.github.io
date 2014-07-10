@@ -1,4 +1,4 @@
-var newsNum, newsCount, remarkPageNum, remarkPageCount, timer;
+var newsNum = 0, newsCount = 0, remarkPageNum = 0, remarkPageCount = 0, timer;
 
 function loadNewsData(data) {
 	$("img#image").attr("src", data.news[newsCount].img);
@@ -38,17 +38,17 @@ function gotoPreviousNews() {
 }
 
 function processRemarkPageData(data) {
-	remarkPageNum = data.remarkPages.length;
+	remarkPageNum = Math.ceil(data.remarks.length / 10);
 	$("#remark-links p").text("第" + (remarkPageCount + 1) + "页，共" + remarkPageNum + "页");
 	$("#remark-session").empty();
-	for (var i = 0; i < data.remarkPages[remarkPageCount].remarks.length; i++) {
-		if (i > 0)
+	for (var i = remarkPageCount * 10; (i < (remarkPageCount + 1) * 10) && (i < data.remarks.length); i++) {
+		if (i > remarkPageCount * 10)
 			$("#remark-session").append($("<hr />"));
 		var remarkDiv = $("<div class='remark-div' />");
-		remarkDiv.append($("<img class='photo' />").attr("src", data.remarkPages[remarkPageCount].remarks[i].photo));
-		remarkDiv.append($("<p class='author' />").text(data.remarkPages[remarkPageCount].remarks[i].author));
-		remarkDiv.append($("<p class='date' />").text(data.remarkPages[remarkPageCount].remarks[i].date));
-		remarkDiv.append($("<p class='remark' />").text(data.remarkPages[remarkPageCount].remarks[i].remark));
+		remarkDiv.append($("<img class='photo' />").attr("src", data.remarks[i].photo));
+		remarkDiv.append($("<p class='author' />").text(data.remarks[i].author));
+		remarkDiv.append($("<p class='date' />").text(data.remarks[i].date));
+		remarkDiv.append($("<p class='remark' />").text(data.remarks[i].remark));
 		$("#remark-session").append(remarkDiv);
 	}
 }
@@ -111,7 +111,7 @@ function setCookie() {
 function checkCookie() {
 	var s = getCookie();
 	if ((s != null) && (s != ""))
-		alert("lastViewLink=" + s);
+		console.log("lastViewLink=" + s);
 }
 
 function getReady() {

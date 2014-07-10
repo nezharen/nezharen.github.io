@@ -1,30 +1,35 @@
 {
- "remarkPages":
+ "remarks":
  [
-  {
-   "remarks":
-   [
-    {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"第一页第一条评论"},
-    {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"第一页第二条评论"},
-    {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"第一页第三条评论"}
-   ]
-  },
-  {
-   "remarks":
-   [
-    {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"第二页第一条评论"},
-    {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"第二页第二条评论"},
-    {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"第二页第三条评论"}
-   ]
-  },
-  {
-   "remarks":
-   [
-    {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"第三页第一条评论"},
-    {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"第三页第二条评论"},
-    {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"第三页第三条评论"}
-   ]
-  }
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论1"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论2"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论3"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论4"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论5"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论6"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论7"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论8"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论9"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论10"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论11"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论12"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论13"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论14"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论15"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论16"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论17"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论18"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论19"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论20"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论21"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论22"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论23"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论24"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论25"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论26"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论27"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论28"},
+  {"photo":"image/photo.jpg","author":"nezharen","date":"2014-07-10","remark":"评论29"}
  ]
 }
 
