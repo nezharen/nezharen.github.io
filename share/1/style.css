@@ -75,8 +75,7 @@ div#header-caption {
 div#image-caption {
 	background-color: #000000;
 	color: #ffffff;
-	filter:alpha(opacity=50);
-	-moz-opacity: 0.5;
+	filter:Alpha(opacity=50);
 	opacity: 0.5;
 	overflow: hidden;
 }
@@ -84,19 +83,16 @@ div#image-caption {
 a#gotoPreviousNews, a#gotoNextNews {
 	overflow: hidden;
 	transition: filter, 300ms;
-	transition: -moz-opacity, 300ms;
 	transition: opacity, 300ms;
 }
 
 a#gotoPreviousNews:link, a#gotoPreviousNews:visited, a#gotoNextNews:link, a#gotoNextNews:visited {
-	filter:alpha(opacity=50);
-	-moz-opacity: 0.5;
+	filter:Alpha(opacity=50);
 	opacity: 0.5;
 }
 
 a#gotoPreviousNews:hover, a#gotoPreviousNews:active, a#gotoNextNews:hover, a#gotoNextNews:active {
-	filter:alpha(opacity=100);
-	-moz-opacity: 1;
+	filter:Alpha(opacity=100);
 	opacity: 1;
 }
 

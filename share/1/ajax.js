@@ -90,28 +90,12 @@ function gotoFirstRemarkPage() {
 		alert("已是第一页。");
 }
 
-function getCookie() {
-	var c_start = document.cookie.indexOf("lastViewLink=");
-	if (c_start != -1) {
-		c_start = c_start + 13;
-		var c_end = document.cookie.indexOf(";", c_start);
-		if (c_end == -1)
-			c_end = document.cookie.length;
-		return unescape(document.cookie.substring(c_start, c_end));
-	}
-	return "";
+function setStorage() {
+	localStorage.lastViewLink = $("a.image-link").attr("href");
 }
 
-function setCookie() {
-	var exdate = new Date();
-	exdate.setDate(exdate.getDate() + 365);
-	document.cookie = "lastViewLink=" + escape($("a.image-link").attr("href")) + ";expires=" + exdate.toGMTString()
-}
-
-function checkCookie() {
-	var s = getCookie();
-	if ((s != null) && (s != ""))
-		console.log("lastViewLink=" + s);
+function getStorage() {
+	console.log("lastViewLink: " + localStorage.lastViewLink);
 }
 
 function getReady() {
@@ -121,9 +105,9 @@ function getReady() {
 	$("a#gotoPreviousRemarkPage").click(gotoPreviousRemarkPage);
 	$("a#gotoNextRemarkPage").click(gotoNextRemarkPage);
 	$("a#gotoLastRemarkPage").click(gotoLastRemarkPage);
-	$("a.image-link").click(setCookie);
+	$("a.image-link").click(setStorage);
 	gotoNews(0);
 	gotoRemarkPage(0);
-	checkCookie();
+	getStorage();
 }
 
