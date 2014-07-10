@@ -2,7 +2,7 @@
  "news":
  [
   {"caption":"剑灵","img":"image/blade-and-soul.jpg","href":"http://bns.qq.com/"},
-  {"caption":"Kerbal Space Program","img":"image/ksp.png","href":"http://kerbalspaceprogram.com/"},
+  {"caption":"Kerbal Space Program","img":"image/ksp.jpg","href":"http://kerbalspaceprogram.com/"},
   {"caption":"龙之谷","img":"image/dragon.jpg","href":"http://dn.sdo.com/"}
  ]
 }
