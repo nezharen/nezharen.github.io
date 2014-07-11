@@ -96,10 +96,6 @@ a {
 }
 
 /* layout */
-html {
-	min-width: 940px;
-}
-
 body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li {
 	margin: 0px;
 	border: 0px;
@@ -111,7 +107,7 @@ body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li {
 	display: block;
 	content: " ";
 	clear: both;
-	height: 0;
+	height: 0px;
 }
 
 .clearfix {
@@ -125,21 +121,21 @@ div#header {
 
 div#body {
 	min-height: 610px;
-	margin-right: 310px;
+	margin-right: 21%;
 	padding: 20px;
 }
 
 div#aside {
 	float: right;
-	width: 300px;
+	width: 20%;
 	height: 600px;
 	padding: 20px;
 }
 
 div#header-caption {
-	height: 120px;
+	height: 130px;
 	padding-left: 20px;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 div#header-links {
@@ -149,22 +145,22 @@ div#header-links {
 } 
 
 div#header-links ul {
-	width: 840px;
+	min-width: 215px;
+	width: 80%;
 	height: 50px;
 	float: right;
 	list-style-type: none;
 }
 
 div#header-links ul li {
-	width: 200px;
+	width: 15%;
 	height: 50px;
 	float: right;
-	margin-right: 10px;
+	margin-right: 5%;
 }
 
 a.header-link {
 	display: block;
-	width: 200px;
 	height: 30px;
 	padding-top: 13px;
 	padding-bottom: 7px;
@@ -181,8 +177,7 @@ div.session {
 
 img.photo {
 	float:left;
-	width:384px;
-	height:240px;
+	width:35%;
 	margin:0px;
 	padding:0px;
 	padding-right:6px;
