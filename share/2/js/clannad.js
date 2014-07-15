@@ -144,7 +144,7 @@ function analyzeSentence(data)
 	{
 		wrongSum = 0;
 		gotoFrame(0, 0);
-		$("button").removeAttr("disabled");
+		$("button").addClass("enabled");
 		return;
 	}
 }
@@ -200,7 +200,7 @@ function gotoFrame(stage, frame)
 	if ((stage == 5) && (frame == 0))
 	{
 		localStorage.pass = "true";
-		$("button").attr("disabled", "disabled");
+		$("button").removeClass("enabled");
 	}
 
 	stageCount = stage;
@@ -237,8 +237,8 @@ function getReady()
 	$("div#character").click(gotoNextFrame);
 	$("div#BackGround").click(gotoNextFrame);
 	$("button").click(function (){gotoFrame(5, 0);});
-	if (localStorage.pass != "true")
-		$("button").attr("disabled", "disabled");
+	if (localStorage.pass == "true")
+		$("button").addClass("enabled");
 	$.ajax({
 		url: "json/clannad.json",
 		success: preloadImage,

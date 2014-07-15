@@ -107,3 +107,44 @@ ul#listItem li:hover {
     background: rgba(255, 255, 255, 0.6);
     color: black;
 }
+
+div#button {
+    width: 94px;
+    margin: 10px auto;
+}
+
+div#button button.enabled {
+    font-family: Ubuntu, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, "Microsoft YaHei", "微软雅黑", "微軟正黑體", "LiHei Pro", "WenQuanYi Micro Hei", "Droid Sans Fallback", "AR PL UMing TW", "新細明體", sans-serif;
+    background-color: #B69236;
+    color: white;
+    border-color: #D5B35D;
+    font-size: large;
+}
+
+div#button button{
+    cursor: default;
+    background-color: #807F7F;
+    color: #C7C5C1;
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: white;
+    border-right-color: white;
+    font-family: Ubuntu, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, "Microsoft YaHei", "微软雅黑", "微軟正黑體", "LiHei Pro", "WenQuanYi Micro Hei", "Droid Sans Fallback", "AR PL UMing TW", "新細明體", sans-serif;
+    font-size: large;
+}
+
+div#button button.enabled:hover {
+    cursor: pointer;
+    background-color: #FDE19A;
+    color: white;
+    border-color: #D5B35D;
+}
+
+div#button button.enabled:active {
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: white;
+    border-right-color: white;
+    background-color: #D5B35D;
+    color: white;
+}
