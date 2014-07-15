@@ -1,0 +1,281 @@
+{
+	"stages":
+	[
+		{
+			"backgroundImage": "image/BG000.jpg",
+			"backgroundMusic": "music/usio.mp3",
+			"frames":
+			[
+				{"roleImage":"", "name":"", "sentence":""}
+			]
+		},
+		{
+			"backgroundImage": "image/BG001.jpg",
+			"backgroundMusic": "music/mati.mp3",
+			"frames":
+			[
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"我讨厌这个小镇，这里对我来说根本没有美好的回忆。"},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"每一天都是昏昏沉沉的去上学，睡过了一节又一节课，然后回到根本不想回到的家里。"},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"小镇的一切都在迅速的变化着，各种建筑工地占领了小镇的各处，原来玩耍过的许多空地现在都建起了一座座高楼。"},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"总有一天，我也要毕业，开始工作，然后就此忙碌着了却一生吗。"},
+				{"roleImage":"", "name":"", "sentence":""}
+			]
+		},
+		{
+			"backgroundImage": "image/BG002.jpg",
+			"backgroundMusic": "music/nagisa.mp3",
+			"frames":
+			[
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"image/cgng001.png", "name":"古河诸", "sentence":"啊，冈崎君，早上好。"},
+				{"roleImage":"image/cgng001.png", "name":"冈崎朋也", "sentence":"是古河啊，早上好。"},
+				{"roleImage":"image/cgng001.png", "name":"古河诸", "sentence":"冈崎君今天来得好早呢。"},
+				{"roleImage":"image/cgng001.png", "name":"冈崎朋也", "sentence":"哪里，古河不也是来的很早吗。"},
+				{"roleImage":"image/cgng001.png", "name":"古河诸", "sentence":"那么，一起去上课吧。"},
+				{"roleImage":"image/cgng001.png", "name":"冈崎朋也", "sentence":"好啊，走吧。"},
+				{"roleImage":"image/cgng002.png", "name":"古河诸", "sentence":"恩～"},
+				{"roleImage":"", "name":"", "sentence":""}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003A.jpg",
+			"backgroundMusic": "music/touhuu.mp3",
+			"frames":
+			[
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"好无聊……"},
+				{"roleImage":"", "name":"", "sentence":""}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003B.jpg",
+			"backgroundMusic": "music/touhuu.mp3",
+			"frames":
+			[
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"那个，朋也君。"},
+				{"roleImage":"image/cgry001.png", "name":"冈崎朋也", "sentence":"哦，椋，有什么事吗。"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"那个，今天朋也君没有迟到呢。"},
+				{"roleImage":"image/cgry001.png", "name":"冈崎朋也", "sentence":"嗯，昨天睡的太早了所以今天很早就醒了。"},
+				{"roleImage":"image/cgry002b.png", "name":"藤林椋", "sentence":"那个...我认为...朋也君平时还是不要迟到的太多比较好......"},
+				{"roleImage":"image/cgry002b.png", "name":"冈崎朋也", "sentence":"我知道了啦，话说你怎么一直像个老太婆一样唠唠叨叨的..."},
+				{"roleImage":"image/cgry003b.png", "name":"藤林椋", "sentence":"诶，朋也君真的感觉我像个老太婆吗？"},
+				{"roleImage":"image/cgry003b.png", "name":"冈崎朋也", "sentence":"额...不要哭啊......"},
+				{"roleImage":"", "name":"藤林杏", "sentence":"喂，朋也！"},
+				{"roleImage":"image/cgky001.png", "name":"藤林杏", "sentence":"刚才在对椋做什么，竟然敢欺负我可爱的妹妹绝对不可原谅！"},
+				{"roleImage":"image/cgry004.png", "name":"藤林椋", "sentence":"不是的姐姐，都是我太脆弱了。"},
+				{"roleImage":"image/cgky001.png", "name":"藤林杏", "sentence":"我说椋啊，总是这样会一直被朋也这样的不良学生欺负的哦。"},
+				{"roleImage":"image/cgky001.png", "name":"冈崎朋也", "sentence":"不良学生什么的，当着本人的面就说的出口啊。"},
+				{"roleImage":"image/cgky002b.png", "name":"藤林杏", "sentence":"啊啦，说错了吗。上一节课学的日语五十音都记住了吗？"},
+				{"roleImage":"image/cgky002b.png", "name":"冈崎朋也", "sentence":"这个...听得实在无聊就睡过去了..."},
+				{"roleImage":"image/cgky003.png", "name":"藤林杏", "sentence":"果然...完全不记得了呢。"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"这样不行的啊朋也君，我们学校的考试可是很严格的。"},
+				{"roleImage":"image/cgky001.png", "name":"藤林杏", "sentence":"就是嘛，等你考试不及格留级的时候没人会管你哦。"},
+				{"roleImage":"image/cgky001.png", "name":"冈崎朋也", "sentence":"那种事情我知道的啦..."},
+				{"roleImage":"image/cgky004a.png", "name":"藤林杏", "sentence":"没办法啊...既然那样，就让椋来帮你复习吧～"},
+				{"roleImage":"image/cgky004a.png", "name":"冈崎朋也", "sentence":"诶..."},
+				{"roleImage":"image/cgry005b.png", "name":"藤林椋", "sentence":"诶————(等一下啦姐姐...)"},
+				{"roleImage":"image/cgky005b.png", "name":"藤林杏", "sentence":"（嘘，这可是两个人独处的好机会哦）"},
+				{"roleImage":"image/cgky005b.png", "name":"冈崎朋也", "sentence":"喂，你们叽叽咕咕的说什么呢。"},
+				{"roleImage":"image/cgky006b.png", "name":"藤林杏", "sentence":"没什么没什么，那么我还有事先走了，拜拜～"},
+				{"roleImage":"image/cgky006b.png", "name":"冈崎朋也", "sentence":"喂，等一下..."},
+				{"roleImage":"image/cgry003b.png", "name":"藤林椋", "sentence":"姐姐..."},
+				{"roleImage":"image/cgry003b.png", "name":"冈崎朋也", "sentence":"额..."},
+				{"roleImage":"image/cgry003b.png", "name":"藤林椋", "sentence":"那个，朋也君..."},
+				{"roleImage":"image/cgry003b.png", "name":"冈崎朋也", "sentence":"啊，恩？"},
+				{"roleImage":"image/cgry003b.png", "name":"藤林椋", "sentence":"那个，我们开始吧..."},
+				{"roleImage":"image/cgry003b.png", "name":"冈崎朋也", "sentence":"恩...好的。"}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003C.jpg",
+			"backgroundMusic": "music/zikan.mp3",
+			"frames":
+			[
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"那个，日语最核心的假名一共有十行，每行有五个。每一个假名都有其对应的平假名、片假名和罗马音。"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"0#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"1#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"2#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"3#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"4#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"5#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"6#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"7#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"8#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"9#"},
+				{"roleImage":"image/cgry001.png", "name":"冈崎朋也", "sentence":"额...那么多假名要背，头都要大了..."},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"的确对于日语初学者来说假名的记忆可以说是比较困难的第一关。但是只要经常温习，就能够比较快得掌握哦～"},
+				{"roleImage":"image/cgry001.png", "name":"冈崎朋也", "sentence":"额，话虽这么说...可是像我这种不良少年怎么可能去复习嘛..."},
+				{"roleImage":"image/cgry002b.png", "name":"藤林椋", "sentence":"恩...说的也是呢..."},
+				{"roleImage":"image/cgry007b.png", "name":"冈崎朋也", "sentence":"额...直接就认同了么..."},
+				{"roleImage":"image/cgry008.png", "name":"藤林椋", "sentence":"那么，朋也君，那个，我来帮你练习吧～"},
+				{"roleImage":"image/cgry008.png", "name":"冈崎朋也", "sentence":"诶..."},
+				{"roleImage":"image/cgry008.png", "name":"藤林椋", "sentence":"我问你几个问题，要是你答错不超过5次，我就答应你一个要求。"},
+				{"roleImage":"image/cgry008.png", "name":"冈崎朋也", "sentence":"诶......什么样的要求都可以吗？"},
+				{"roleImage":"image/cgry009.png", "name":"藤林椋", "sentence":"你在想什么啊朋也君，太过分的要求是不可以的哦..."},
+				{"roleImage":"image/cgry009.png", "name":"冈崎朋也", "sentence":"额，不好意思...那，好吧～"},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"那么，我们开始了哦～"}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003C.jpg",
+			"backgroundMusic": "music/tilya.mp3",
+			"frames":
+			[
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"100#"},
+				{"roleImage":"", "name":"", "sentence":"101#"}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003D.jpg",
+			"backgroundMusic": "music/sonzai.mp3",
+			"frames":
+			[
+				{"roleImage":"image/cgry003b.png", "name":"藤林椋", "sentence":"不行啊，朋也君，你错的超过了五个哦..."},
+				{"roleImage":"image/cgry003b.png", "name":"冈崎朋也", "sentence":"额...是吗...不好意思哈..."},
+				{"roleImage":"image/cgry004.png", "name":"藤林椋", "sentence":"朋也君，你要更加努力才行啊..."},
+				{"roleImage":"image/cgry004.png", "name":"冈崎朋也", "sentence":"恩...好好...我知道了啦..."},
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"", "name":"", "sentence":"300#"}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003D.jpg",
+			"backgroundMusic": "music/miti.mp3",
+			"frames":
+			[
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"恭喜你哦，朋也君，你通过了练习哦～"},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"哦是吗，那可真是幸运啊～"},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"只要朋也君每天都能坚持练习，一定可以很快就掌握五十音的哦～"},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"哦对了，话说你不是说可以答应我一个要求的吗。"},
+				{"roleImage":"image/cgry010b.png", "name":"藤林椋", "sentence":"诶...恩，是的...是什么要求呢..."},
+				{"roleImage":"image/cgry010b.png", "name":"冈崎朋也", "sentence":"恩...提什么要求呢..."},
+				{"roleImage":"", "name":"", "sentence":"200#"}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003D.jpg",
+			"backgroundMusic": "music/miti.mp3",
+			"frames":
+			[
+				{"roleImage":"image/cgry005b.png", "name":"藤林椋", "sentence":"诶————"},
+				{"roleImage":"image/cgry005b.png", "name":"冈崎朋也", "sentence":"额，不行吗..."},
+				{"roleImage":"image/cgry005b.png", "name":"藤林椋", "sentence":"恩...那个...亲吻什么的...现在我们毕竟还不是情侣..."},
+				{"roleImage":"image/cgry005b.png", "name":"冈崎朋也", "sentence":"额...哦。"},
+				{"roleImage":"image/cgry005b.png", "name":"藤林椋", "sentence":"恩...那个..."},
+				{"roleImage":"image/cgry005b.png", "name":"冈崎朋也", "sentence":"恩？"},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"那个...如果不介意的话，我来帮你占卜吧。"},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"占卜？"},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"恩，替朋也君算一下能不能学好日语。"},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"额...没办法，只好这样了..."},
+				{"roleImage":"", "name":"", "sentence":"301#"}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003D.jpg",
+			"backgroundMusic": "music/sonzai.mp3",
+			"frames":
+			[
+				{"roleImage":"image/cgry005b.png", "name":"藤林椋", "sentence":"诶————"},
+				{"roleImage":"image/cgry005b.png", "name":"冈崎朋也", "sentence":"额，不行吗..."},
+				{"roleImage":"image/cgry004.png", "name":"藤林椋", "sentence":"朋也君...果然是..."},
+				{"roleImage":"image/cgry004.png", "name":"冈崎朋也", "sentence":"啊..."},
+				{"roleImage":"image/cgry004.png", "name":"藤林椋", "sentence":"果然是更喜欢姐姐的呢..."},
+				{"roleImage":"image/cgry004.png", "name":"冈崎朋也", "sentence":"额...不是啦..."},
+				{"roleImage":"image/cgry004.png", "name":"藤林椋", "sentence":"姐姐...果然是要比我这个妹妹更好呢..."},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"额...不是这样的啦...喂————"},
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"", "name":"", "sentence":"300#"}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003D.jpg",
+			"backgroundMusic": "music/miti.mp3",
+			"frames":
+			[
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"当然可以了，朋也君非常喜欢我的占卜吗？"},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"（不是...反正提别的要求你又不答应，虽然你的占卜从来没准过...）"},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"那么我们就来算一下朋也君能不能学好日语吧～"},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"恩，好的..."}
+			]
+		},
+		{
+			"backgroundImage": "image/BG003D.jpg",
+			"backgroundMusic": "music/onazi.mp3",
+			"frames":
+			[
+				{"roleImage":"image/cgry008a.png", "name":"藤林椋", "sentence":"那么，请朋也君随便选一张牌"},
+				{"roleImage":"image/cgry008a.png", "name":"冈崎朋也", "sentence":"一张就可以了吗，好的，我选...这一张。"},
+				{"roleImage":"image/cgry008a.png", "name":"藤林椋", "sentence":"请让我看一下。"},
+				{"roleImage":"image/cgry007b.png", "name":"藤林椋", "sentence":"恩...朋也君，会学的比较不顺利啊..."},
+				{"roleImage":"image/cgry007b.png", "name":"冈崎朋也", "sentence":"（额，那根据你以往占卜的准确率来看，我是会学的很好喽～）"},
+				{"roleImage":"image/cgry001.png", "name":"藤林椋", "sentence":"朋也君在嘀咕什么呢..."},
+				{"roleImage":"image/cgry001.png", "name":"冈崎朋也", "sentence":"啊哈哈...没什么..."},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"但是呢，朋也君，占卜的结果也不一定就是准的呢..."},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"（呵呵...这我当然知道了...）"},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"虽然占卜给出了一种对未来的预测，但这并不意味着未来是不可改变的哦。"},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"哦，是吗。"},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"嗯！人的力量是无限的，只要努力的话，也是可以改变未来的哦～"},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"额，哦。"},
+				{"roleImage":"image/cgry006b.png", "name":"藤林椋", "sentence":"所以呢朋也君，加油哦～"},
+				{"roleImage":"image/cgry006b.png", "name":"冈崎朋也", "sentence":"嗯！我知道了～"},
+				{"roleImage":"", "name":"", "sentence":""}
+			]
+		},
+		{
+			"backgroundImage": "image/BG006.jpg",
+			"backgroundMusic": "music/sora.mp3",
+			"frames":
+			[
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"恩，只要努力，愿望就一定可以实现的。和小镇的大家一起奋斗吧～"},
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"", "name":"", "sentence":"400#"}
+			]
+		},
+		{
+			"backgroundImage": "image/BG004.jpg",
+			"backgroundMusic": "music/mati.mp3",
+			"frames":
+			[
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"唉，一觉醒来已经到上午10点了。"},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"就这样一天天慵懒的混日子，毕业了随便找一份工作，然后就这样了却此生么..."},
+				{"roleImage":"", "name":"", "sentence":""}
+			]
+		},
+		{
+			"backgroundImage": "image/BG005.jpg",
+			"backgroundMusic": "music/mati.mp3",
+			"frames":
+			[
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"到了这个时候，街上一个同学也没有了。"},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"高中的生活就要一直这样孤独的一个人度过了吗..."},
+				{"roleImage":"", "name":"", "sentence":""},
+				{"roleImage":"", "name":"", "sentence":"400#"}
+			]
+		}
+	]
+}
+
