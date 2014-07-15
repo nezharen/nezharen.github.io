@@ -217,6 +217,16 @@ function gotoNextFrame()
 			gotoFrame(stageCount + 1, 0);
 }
 
+function preloadImage(data)
+{
+	for (var i = 0; i < data.stages.length; i++)
+	{
+		$("<img />").attr("src", data.stages[i].backgroundImage);
+		for (var j = 0; j < data.stages[i].frames.length; j++)
+			$("<img />").attr("src", data.stages[i].frames[j].roleImage);
+	}
+}
+
 function getReady()
 {
 	gotoFrame(0, 0);
@@ -225,5 +235,10 @@ function getReady()
 	$("button").click(function (){gotoFrame(5, 0);});
 	if (localStorage.pass != "true")
 		$("button").attr("disabled", "disabled");
+	$.ajax({
+		url: "json/clannad.json",
+		success: preloadImage,
+		dataType: "json"
+	});
 }
 
