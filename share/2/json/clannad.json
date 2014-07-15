@@ -244,11 +244,13 @@
 		},
 		{
 			"backgroundImage": "image/BG006.jpg",
-			"backgroundMusic": "music/sora.mp3",
+			"backgroundMusic": "music/onazi.mp3",
 			"frames":
 			[
 				{"roleImage":"", "name":"", "sentence":""},
-				{"roleImage":"", "name":"冈崎朋也", "sentence":"恩，只要努力，愿望就一定可以实现的。和小镇的大家一起奋斗吧～"},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"恩，是啊，人的力量是无限的。"},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"只要努力，愿望就一定可以实现的。"},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"和小镇的大家一起奋斗吧～"},
 				{"roleImage":"", "name":"", "sentence":""},
 				{"roleImage":"", "name":"", "sentence":"400#"}
 			]
@@ -260,6 +262,7 @@
 			[
 				{"roleImage":"", "name":"", "sentence":""},
 				{"roleImage":"", "name":"冈崎朋也", "sentence":"唉，一觉醒来已经到上午10点了。"},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"就算去上学，还不是一样会睡过去一节又一节课么。"},
 				{"roleImage":"", "name":"冈崎朋也", "sentence":"就这样一天天慵懒的混日子，毕业了随便找一份工作，然后就这样了却此生么..."},
 				{"roleImage":"", "name":"", "sentence":""}
 			]
@@ -271,7 +274,8 @@
 			[
 				{"roleImage":"", "name":"", "sentence":""},
 				{"roleImage":"", "name":"冈崎朋也", "sentence":"到了这个时候，街上一个同学也没有了。"},
-				{"roleImage":"", "name":"冈崎朋也", "sentence":"高中的生活就要一直这样孤独的一个人度过了吗..."},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"即使到了学校，也没有人愿意搭理我这种不良少年吧..."},
+				{"roleImage":"", "name":"冈崎朋也", "sentence":"高中的生活就要一直这样孤独得一个人度过了吗..."},
 				{"roleImage":"", "name":"", "sentence":""},
 				{"roleImage":"", "name":"", "sentence":"400#"}
 			]
