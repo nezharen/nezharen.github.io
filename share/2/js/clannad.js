@@ -1,6 +1,7 @@
 var stageCount = 0, frameCount = 0, stageSum = 0, frameSum = 0;
 var wrongSum = 0;
 var rightId = -1;
+var num = 0;
 
 function analyzeSentence(data)
 {
@@ -44,7 +45,6 @@ function analyzeSentence(data)
 	}
 
 	var s = "";
-	var num = parseInt($("div#conversation").html());
 
 	if ((num >=0) && (num <= 9))
 	{
@@ -182,13 +182,17 @@ function processData(data)
 		if ($("div#conversation").html() == "")
 			$("div#conversationBody").fadeIn(500);
 	$("div#characterName").text(data.stages[stageCount].frames[frameCount].name);
-	$("div#conversation").html(data.stages[stageCount].frames[frameCount].sentence);
-	if ($("div#conversation").html().lastIndexOf("#") == ($("div#conversation").html().length - 1))
+	if ((data.stages[stageCount].frames[frameCount].sentence != "") && (data.stages[stageCount].frames[frameCount].sentence.lastIndexOf("#") == (data.stages[stageCount].frames[frameCount].sentence.length - 1)))
+	{
+		num = parseInt(data.stages[stageCount].frames[frameCount].sentence);
 		$.ajax({
 			url: "json/japanese.json",
 			success: analyzeSentence,
 			dataType: "json"
 		});
+	}
+	else
+		$("div#conversation").html(data.stages[stageCount].frames[frameCount].sentence);
 }
 
 function gotoFrame(stage, frame)
