@@ -178,10 +178,10 @@ function processData(data)
 			$("div#character").css("background-image", "url(" + data.stages[stageCount].frames[frameCount].roleImage + ")");
 		}
 	if (data.stages[stageCount].frames[frameCount].sentence == "")
-		$("div#conversationBody").fadeOut(500);
+		$("div#conversationBody").hide();
 	else
 		if ($("div#conversation").html() == "")
-			$("div#conversationBody").fadeIn(500);
+			$("div#conversationBody").show();
 	$("div#characterName").text(data.stages[stageCount].frames[frameCount].name);
 	if ((data.stages[stageCount].frames[frameCount].sentence != "") && (data.stages[stageCount].frames[frameCount].sentence.lastIndexOf("#") == (data.stages[stageCount].frames[frameCount].sentence.length - 1)))
 	{
