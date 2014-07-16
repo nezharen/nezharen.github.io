@@ -40,7 +40,6 @@ div#conversation:before, div#conversation:after, div#characterName:before {
     background-image: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6) 5%, rgba(255, 255, 255, 0.6) 95%, rgba(255, 255, 255, 0));
     background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6) 5%, rgba(255, 255, 255, 0.6) 95%, rgba(255, 255, 255, 0));
     background-image: -o-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6) 5%, rgba(255, 255, 255, 0.6) 95%, rgba(255, 255, 255, 0));
-    background-image: linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6) 5%, rgba(255, 255, 255, 0.6) 95%, rgba(255, 255, 255, 0));
 }
 
 div#conversation:before {
@@ -57,7 +56,6 @@ div#characterName:before {
     background-image: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6) 10%, rgba(255, 255, 255, 0.6) 90%, rgba(255, 255, 255, 0));
     background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6) 10%, rgba(255, 255, 255, 0.6) 90%, rgba(255, 255, 255, 0));
     background-image: -o-linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6) 10%, rgba(255, 255, 255, 0.6) 90%, rgba(255, 255, 255, 0));
-    background-image: linear-gradient(right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.6) 10%, rgba(255, 255, 255, 0.6) 90%, rgba(255, 255, 255, 0));
 }
 
 div#conversation, div#characterName {
@@ -83,7 +81,6 @@ div#conversation {
     background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 5%, rgba(0, 0, 0, 0.6) 95%, rgba(0, 0, 0, 0));
     background: -moz-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 5%, rgba(0, 0, 0, 0.6) 95%, rgba(0, 0, 0, 0));
     background: -o-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 5%, rgba(0, 0, 0, 0.6) 95%, rgba(0, 0, 0, 0));
-    background: linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 5%, rgba(0, 0, 0, 0.6) 95%, rgba(0, 0, 0, 0));
 }
 
 div#characterName {
@@ -93,7 +90,6 @@ div#characterName {
     background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0));
     background: -moz-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0));
     background: -o-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0));
-    background: linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0));
 }
 
 ul#listItem {
