@@ -43,7 +43,7 @@ div#conversation:before, div#conversation:after, div#characterName:before {
 }
 
 div#conversation:before {
-    top: 44px;
+    top: 42px;
 }
 
 div#conversation:after {
