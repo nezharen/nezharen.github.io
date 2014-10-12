@@ -48,6 +48,10 @@ p.date {
 	text-align: right;
 }
 
+p {
+	line-height: 150%;
+}
+
 /* color */
 body {
 	color: #000000;
