@@ -48,7 +48,7 @@ p.date {
 	text-align: right;
 }
 
-p {
+div, span, h1, h2, h3, h4, h5, h6, p {
 	line-height: 150%;
 }
 
