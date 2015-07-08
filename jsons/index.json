@@ -1,0 +1,110 @@
+{
+	"index":
+	[
+		{
+			"type": "share",
+			"link": "https://github.com/nezharen/SnakeNetwork",
+			"caption": "网络小游戏：多人贪吃蛇",
+			"date": "2015-06-04",
+			"intro": "<p>这是我网络系统课程的一次作业，一款网络小游戏：多人贪吃蛇。基于Qt 4.8.6开发。欢迎体验！</p><p>源代码：<a href=\"https://github.com/nezharen/SnakeNetwork\" target=\"_blank\">https://github.com/nezharen/SnakeNetwork</a></p><p>Windows系统服务器端可执行文件：<a href=\"shares/SnakeNetworkServer.zip\" target=\"_blank\">SnakeNetworkServer.zip</a></p><p>Windows系统客户端可执行文件：<a href=\"shares/SnakeNetworkClient.zip\" target=\"_blank\">SnakeNetworkClient.zip</a></p><p>Linux x86_64系统服务器端可执行文件：<a href=\"shares/SnakeNetworkServer\" target=\"_blank\">SnakeNetworkServer</a></p><p>Linux x86_64系统客户端可执行文件：<a href=\"shares/SnakeNetworkClient\" target=\"_blank\">SnakeNetworkClient</a></p>"
+		},
+		{
+			"type": "share",
+			"link": "https://github.com/nezharen/Sniper",
+			"caption": "汇编小游戏：Sniper",
+			"date": "2015-04-15",
+			"intro": "<p>这是我的一次汇编课程小组作业，一个狙击小游戏，欢迎体验！</p><p>源代码：<a href=\"https://github.com/nezharen/Sniper\" target=\"_blank\">https://github.com/nezharen/Sniper</a></p><p>Windows系统可执行文件：<a href=\"shares/Sniper.exe\" target=\"_blank\">Sniper.exe</a></p>"
+		},
+		{
+			"type": "note",
+			"link": "jsons/notes/7.json",
+			"caption": "Popush项目迭代二总结",
+			"date": "2014-12-25",
+			"intro": "<p>终于完成了Popush项目的迭代二~~~</p>"
+		},
+		{
+			"type": "share",
+			"link": "http://nezharen.github.io/GameOfLife/",
+			"caption": "Game of Life",
+			"date": "2014-12-25",
+			"intro": "<p>这是之前的一次软工课上的作业，使用Javascript实现一个生命小游戏。</p>"
+		},
+		{
+			"type": "note",
+			"link": "jsons/notes/6.json",
+			"caption": "Popush项目迭代一总结",
+			"date": "2014-11-30",
+			"intro": "<p>我们终于完成了Popush项目的迭代一！这是关于迭代一的总结。</p>"
+		},
+		{
+			"type": "note",
+			"link": "jsons/notes/5.json",
+			"caption": "Popush技术方面学习分析报告",
+			"date": "2014-10-26",
+			"intro": "<p>这是在技术层面对Popush开发所用框架的学习及分析报告。主要包括node.js、socket.io和Backbone.js。</p>"
+		},
+		{
+			"type": "note",
+			"link": "jsons/notes/4.json",
+			"caption": "Popush项目启动记",
+			"date": "2014-10-11",
+			"intro": "<p>这是按照软件工程课程的要求，在Popush项目启动会议之后撰写的第一篇博客。</p>"
+		},
+		{
+			"type": "share",
+			"link": "http://thufe.github.io/",
+			"caption": "Web前端课程作品集",
+			"date": "2014-10-11",
+			"intro": "<p>这是我的Web前端课里所有同学做的作品，各种好玩的Web前端小游戏。</p>"
+		},
+		{
+			"type": "share",
+			"link": "shares/2/index.html",
+			"caption": "恋爱冒险小游戏：クラナドの一日",
+			"date": "2014-07-15",
+			"intro": "<p>这是我参与的一次Web前端作业，一个简单的Web前端小游戏。游戏内容基于日本著名恋爱冒险游戏CLANNAD，旨在帮助日语初学者更好地记忆日语五十音。本游戏中所有图片和音乐版权均为Key社所有。</p>"
+		},
+		{
+			"type": "share",
+			"link": "shares/1/index.html",
+			"caption": "图片新闻轮播设计",
+			"date": "2014-07-09",
+			"intro": "<p>这是我的一次Web前端作业，使用ajax和json设计出图片新闻的轮播效果。</p>"
+		},
+		{
+			"type": "note",
+			"link": "jsons/notes/3.json",
+			"caption": "「犬夜叉」について",
+			"date": "2014-07-06",
+			"intro": "<p>今天刚考完了日语N3，Web前端大作业也做的差不多了，于是决定写了关于最近刚看过的动漫《犬夜叉》的我的第一篇日语日志。虽然写日志总是遇到各种不懂的单词和语法知识，但看到现在自己已经能比较顺畅的写出日语文章，还是很有满足感的。</p>"
+		},
+		{
+			"type": "note",
+			"link": "jsons/notes/2.json",
+			"caption": "Web前端设计经验总结",
+			"date": "2014-07-02",
+			"intro": "<p>不得不说Web前端设计是一个对多方面能力，尤其是美工要求都很高的工作。Web前端的最终效果往往反映了一个前端设计师的审美水平。不过，Web前端设计也是有一定技巧的，适当的总结一些经验可以让设计出的网页更加美观。</p>"
+		},
+		{
+			"type": "share",
+			"link": "https://github.com/nezharen/nezharen.github.io/",
+			"caption": "Web前端第一次作业（本个人主页）源代码",
+			"date": "2014-06-30",
+			"intro": "<p>Web前端第一次作业（本个人主页）源代码的链接，发布在Github上。本个人主页借助Github Pages进行发布。</p>"
+		},
+		{
+			"type": "note",
+			"link": "jsons/notes/1.json",
+			"caption": "欢迎访问我的个人主页！",
+			"date": "2014-06-30",
+			"intro": "<p>僕のホームページへ、ようこそ！</p><p>大家好，我是nezharen，欢迎访问我的个人主页！通过我在大学里学习Web前端课程的过程中，此个人网页开始诞生并逐渐完善。大二的暑假小学期教授的是Web前端及后台的一系列流行技术，通过学习本课程，我将会逐渐掌握更多完善本个人网页的相关知识。非常感谢这一次的小学期让我们学习到了一些非常实用的技术。</p>"
+		},
+		{
+			"type": "about",
+			"caption": "关于我的个人介绍",
+			"date": "2014-06-30",
+			"intro": "<p>关于我的个人信息。</p>"
+		}
+	]
+}
+
