@@ -2,13 +2,13 @@ function checkSize()
 {
 	if ($(document).width() < 800)
 	{
-		$("div#aside").hide();
-		$("div#body").css("margin-right", "0%");
+		$("#aside").hide();
+		$("#body").css("margin-right", "0%");
 	}
 	else
 	{
-		$("div#aside").show();
-		$("div#body").css("margin-right", "21%");
+		$("#aside").show();
+		$("#body").css("margin-right", "21%");
 	}
 }
 
@@ -17,7 +17,8 @@ function loadIndexData(data)
 	var n = data.index.length;
 	var s;
 
-	$("#body").empty();
+	$("#body-content").empty();
+	$("#body-disqus").hide();
 	for (var i = 0; i < n; i++)
 	{
 		switch (data.index[i].type)
@@ -36,7 +37,7 @@ function loadIndexData(data)
 			break;
 		}
 		s += data.index[i].caption + "</h2></a><p class=\"date\">" + data.index[i].date + "</p><hr />" + data.index[i].intro + "</div>";
-		$("#body").append(s);
+		$("#body-content").append(s);
 		if (data.index[i].type == "about")
 			$(".about-link").click(loadAbout);
 		else
@@ -63,14 +64,15 @@ function loadNoteData(data)
 	var n = data.index.length;
 	var s;
 
-	$("#body").empty();
+	$("#body-content").empty();
+	$("#body-disqus").hide();
 	for (var i = 0; i < n; i++)
 	{
 		if (data.index[i].type == "note")
 		{
 			s = "<div class=\"session\"><a id=\"" + data.index[i].link + "\" class=\"note-link\" href=\"#\"><h2>";
 			s += data.index[i].caption + "</h2></a><p class=\"date\">" + data.index[i].date + "</p><hr />" + data.index[i].intro + "</div>";
-			$("#body").append(s);
+			$("#body-content").append(s);
 			$(".note-link").click(loadNoteJson);
 		}
 	}
@@ -94,14 +96,15 @@ function loadShareData(data)
 	var n = data.index.length;
 	var s;
 
-	$("#body").empty();
+	$("#body-content").empty();
+	$("#body-disqus").hide();
 	for (var i = 0; i < n; i++)
 	{
 		if (data.index[i].type == "share")
 		{
 			s = "<div class=\"session\"><a href=\"" + data.index[i].link + "\" target=\"_blank\"><h2>";
 			s += data.index[i].caption + "</h2></a><p class=\"date\">" + data.index[i].date + "</p><hr />" + data.index[i].intro + "</div>";
-			$("#body").append(s);
+			$("#body-content").append(s);
 		}
 	}
 }
@@ -121,8 +124,9 @@ function loadShare()
 
 function loadAboutData(data)
 {
-	$("#body").empty();
-	$("#body").append("<div class=\"session\" style=\"height:500px;\"><h1>" + data.caption + "</h1><hr />" + data.content);
+	$("#body-content").empty();
+	$("#body-disqus").hide();
+	$("#body-content").append("<div class=\"session\" style=\"height:500px;\"><h1>" + data.caption + "</h1><hr />" + data.content);
 }
 
 function loadAbout()
@@ -140,8 +144,10 @@ function loadAbout()
 
 function loadNoteJsonData(data)
 {
-	$("#body").empty();
-	$("#body").append("<div class=\"session\"><h1>" + data.caption + "</h1><p class=\"date\">" + data.date + "</p><hr />" + data.content + "<div class=\"session\"><div id=\"disqus_thread\"></div><script type=\"text/javascript\">var disqus_shortname = 'nezharen';(function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })();</script><noscript>Please enable JavaScript to view the <a href=\"http://disqus.com/?ref_noscript\">comments powered by Disqus.</a></noscript><a href=\"http://disqus.com\" class=\"dsq-brlink\">comments powered by <span class=\"logo-disqus\">Disqus</span></a></div>");
+	$("#body-content").empty();
+	$("#body-disqus").show();
+	DISQUS.reset();
+	$("#body-content").append("<div class=\"session\"><h1>" + data.caption + "</h1><p class=\"date\">" + data.date + "</p><hr />" + data.content);
 }
 
 function loadNoteJson(event)
