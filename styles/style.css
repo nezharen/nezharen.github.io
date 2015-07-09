@@ -187,3 +187,9 @@ img.photo {
 	padding-right:6px;
 }
 
+audio {
+	position:fixed;
+	right:0;
+	top:0;
+}
+
