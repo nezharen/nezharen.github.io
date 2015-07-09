@@ -18,7 +18,6 @@ function loadIndexData(data)
 	var s;
 
 	$("#body-content").empty();
-	$("#body-disqus").hide();
 	for (var i = 0; i < n; i++)
 	{
 		switch (data.index[i].type)
@@ -65,7 +64,6 @@ function loadNoteData(data)
 	var s;
 
 	$("#body-content").empty();
-	$("#body-disqus").hide();
 	for (var i = 0; i < n; i++)
 	{
 		if (data.index[i].type == "note")
@@ -97,7 +95,6 @@ function loadShareData(data)
 	var s;
 
 	$("#body-content").empty();
-	$("#body-disqus").hide();
 	for (var i = 0; i < n; i++)
 	{
 		if (data.index[i].type == "share")
@@ -125,7 +122,6 @@ function loadShare()
 function loadAboutData(data)
 {
 	$("#body-content").empty();
-	$("#body-disqus").hide();
 	$("#body-content").append("<div class=\"session\" style=\"height:500px;\"><h1>" + data.caption + "</h1><hr />" + data.content);
 }
 
@@ -145,8 +141,6 @@ function loadAbout()
 function loadNoteJsonData(data)
 {
 	$("#body-content").empty();
-	$("#body-disqus").show();
-	DISQUS.reset();
 	$("#body-content").append("<div class=\"session\"><h1>" + data.caption + "</h1><p class=\"date\">" + data.date + "</p><hr />" + data.content);
 }
 
