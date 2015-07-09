@@ -146,7 +146,6 @@ function loadNoteJsonData(data)
 
 function loadNoteJson(event)
 {
-	console.log($(this).attr("id"));
 	$.ajax({
 		url: $(this).attr("id"),
 		success: loadNoteJsonData,
