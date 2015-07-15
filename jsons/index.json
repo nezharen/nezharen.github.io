@@ -24,7 +24,7 @@
 		},
 		{
 			"type": "share",
-			"link": "http://nezharen.github.io/GameOfLife/",
+			"link": "http://nezharen.github.io/GameOfLife",
 			"caption": "Game of Life",
 			"date": "2014-12-25",
 			"intro": "<p>这是之前的一次软工课上的作业，使用Javascript实现一个生命小游戏。</p>"
@@ -52,21 +52,21 @@
 		},
 		{
 			"type": "share",
-			"link": "http://thufe.github.io/",
+			"link": "http://thufe.github.io",
 			"caption": "Web前端课程作品集",
 			"date": "2014-10-11",
 			"intro": "<p>这是我的Web前端课里所有同学做的作品，各种好玩的Web前端小游戏。</p>"
 		},
 		{
 			"type": "share",
-			"link": "shares/2/index.html",
+			"link": "shares/2",
 			"caption": "恋爱冒险小游戏：クラナドの一日",
 			"date": "2014-07-15",
 			"intro": "<p>这是我参与的一次Web前端作业，一个简单的Web前端小游戏。游戏内容基于日本著名恋爱冒险游戏CLANNAD，旨在帮助日语初学者更好地记忆日语五十音。本游戏中所有图片和音乐版权均为Key社所有。</p>"
 		},
 		{
 			"type": "share",
-			"link": "shares/1/index.html",
+			"link": "shares/1",
 			"caption": "图片新闻轮播设计",
 			"date": "2014-07-09",
 			"intro": "<p>这是我的一次Web前端作业，使用ajax和json设计出图片新闻的轮播效果。</p>"
@@ -87,7 +87,7 @@
 		},
 		{
 			"type": "share",
-			"link": "https://github.com/nezharen/nezharen.github.io/",
+			"link": "https://github.com/nezharen/nezharen.github.io",
 			"caption": "Web前端第一次作业（本个人主页）源代码",
 			"date": "2014-06-30",
 			"intro": "<p>Web前端第一次作业（本个人主页）源代码的链接，发布在Github上。本个人主页借助Github Pages进行发布。</p>"
