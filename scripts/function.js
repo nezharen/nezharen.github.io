@@ -146,6 +146,10 @@ function loadNoteJsonData(data)
 
 function loadNoteJson(event)
 {
+	$(".note").attr("id", "current-header-link");
+	$(".index").removeAttr("id");
+	$(".share").removeAttr("id");
+	$(".about").removeAttr("id");
 	$.ajax({
 		url: $(this).attr("id"),
 		success: loadNoteJsonData,
