@@ -52,14 +52,17 @@
     <script>
 	getReady();
 	var disqus_shortname = 'nezharen';
-	(function()
-	{
+	(function() {
 		var dsq = document.createElement('script');
 		dsq.type = 'text/javascript';
 		dsq.async = true;
 		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 	})();
+        var d = new Date();
+	if (((d.getMonth() + 1) == 9) && (d.getDate() == 26)) {
+		window.location.href = "shares/3/index.html";
+	}
     </script>
   </body>
 </html>

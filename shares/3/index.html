@@ -15,84 +15,67 @@
       <div class="wrapper">
         <ul id="sb-slider" class="sb-slider">
           <li>
-            <img src="image/photo.jpg" alt="image1"/>
+            <img src="image/1.jpeg" alt="image1"/>
             <div class="sb-description">
-              <h3>Creative Lifesaver</h3>
+              <h3>女神！</h3>
             </div>
           </li>
           <li>
-            <img src="image/photo.jpg" alt="image2"/>
+            <img src="image/2.jpeg" alt="image2"/>
             <div class="sb-description">
-              <h3>Creative Lifesaver</h3>
+              <h3>霸气！</h3>
             </div>
           </li>
           <li>
-            <img src="image/photo.jpg" alt="image3"/>
+            <img src="image/3.jpeg" alt="image3"/>
             <div class="sb-description">
-              <h3>Creative Lifesaver</h3>
+              <h3>土豪！</h3>
+            </div>
+          </li>
+          <li>
+            <img src="image/4.jpeg" alt="image4"/>
+            <div class="sb-description">
+              <h3>女生宿舍！</h3>
+            </div>
+          </li>
+          <li>
+            <img src="image/5.jpeg" alt="image5"/>
+            <div class="sb-description">
+              <h3>双马尾？</h3>
+            </div>
+          </li>
+          <li>
+            <img src="image/6.jpeg" alt="image6"/>
+            <div class="sb-description">
+              <h3>万圣节！</h3>
+            </div>
+          </li>
+          <li>
+            <img src="image/7.jpeg" alt="image7"/>
+            <div class="sb-description">
+              <h3>吼吼！</h3>
             </div>
           </li>
         </ul>
         <div id="shadow" class="shadow"></div>
-        <div id="nav-arrows" class="nav-arrows">
-          <a href="#">Next</a>
-          <a href="#">Previous</a>
-        </div>
       </div><!-- /wrapper -->
     </div>
+    <audio autoplay="autoplay" loop="loop">
+      <source src="http://m1.music.126.net/P635KeiEggUs1I5DozGKdg==/3205076395010110.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.slicebox.js"></script>
     <script type="text/javascript">
-	$(function() {
-
-		var Page = (function() {
-
-			var $navArrows = $( '#nav-arrows' ).hide(),
-				$shadow = $( '#shadow' ).hide(),
-				slicebox = $( '#sb-slider' ).slicebox( {
-					onReady : function() {
-
-						$navArrows.show();
-						$shadow.show();
-
-					},
-				orientation : 'r',
-				cuboidsRandom : true,
-				disperseFactor : 30
-				} ),
-
-				init = function() {
-
-					initEvents();
-							
-				},
-				initEvents = function() {
-
-					// add navigation events
-					$navArrows.children( ':first' ).on( 'click', function() {
-
-						slicebox.next();
-						return false;
-
-					} );
-
-					$navArrows.children( ':last' ).on( 'click', function() {
-
-						slicebox.previous();
-						return false;
-
-					} );
-
-				};
-
-			return { init : init };
-
-		})();
-
-		Page.init();
-
-	});
+    var $navArrows = $('#nav-arrows'),
+        $shadow = $('#shadow'),
+        slicebox = $('#sb-slider').slicebox({
+        orientation: 'r',
+        cuboidsRandom: true,
+        disperseFactor: 30,
+	autoplay: true,
+	interval: 4000
+        });
     </script>
   </body>
 </html>
-
