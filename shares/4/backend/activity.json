@@ -1,0 +1,50 @@
+{
+    "activity_name": [
+        "Inbound Call",
+        "Handle Case",
+        "Call Outbound",
+        "Inbound Email",
+        "Handle Email",
+        "Email Outbound"
+    ],
+    "mean_duration": [
+        256647,
+        279570,
+        202420,
+        135713839,
+        338723,
+        168088
+    ],
+    "duration_range": [
+        4320000,
+        20520000,
+        2640000,
+        519840000,
+        16860000,
+        1920000
+    ],
+    "aggregate_duration": [
+        1119240000,
+        260280000,
+        133800000,
+        66092640000,
+        191040000,
+        91440000
+    ],
+    "median_duration": [
+        120000,
+        60000,
+        120000,
+        143580000,
+        0,
+        60000
+    ],
+    "frequency": [
+        4361,
+        931,
+        661,
+        487,
+        564,
+        544
+    ]
+}

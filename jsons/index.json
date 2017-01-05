@@ -3,6 +3,13 @@
 	[
 		{
 			"type": "share",
+			"link": "shares/4/index.html",
+			"caption": "过程数据挖掘可视化",
+			"date": "2017-01-05",
+			"intro": "<p>这是我信息可视化与可视分析课程的一次组队作业，对过程数据挖掘得到的数据进行可视化。</p><p>源代码：<a href=\"https://github.com/nezharen/Visualization\" target=\"_blank\">https://github.com/nezharen/Visualization</a></p>"
+		},
+		{
+			"type": "share",
 			"link": "https://github.com/nezharen/SnakeNetwork",
 			"caption": "网络小游戏：多人贪吃蛇",
 			"date": "2015-06-04",
@@ -90,7 +97,7 @@
 			"link": "https://github.com/nezharen/nezharen.github.io",
 			"caption": "Web前端第一次作业（本个人主页）源代码",
 			"date": "2014-06-30",
-			"intro": "<p>Web前端第一次作业（本个人主页）源代码的链接，发布在Github上。本个人主页借助Github Pages进行发布。</p>"
+			"intro": "<p>Web前端第一次作业（本个人主页）源代码的链接，发布在Github上。</p>"
 		},
 		{
 			"type": "note",
