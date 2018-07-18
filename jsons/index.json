@@ -3,6 +3,13 @@
 	[
 		{
 			"type": "share",
+			"link": "https://walleve.github.io/ChromaCode/",
+			"caption": "ChromaCode: A Fully Imperceptible Screen-Camera Communication System",
+			"date": "2018-07-20",
+			"intro": "<p><b>Kai Zhang</b>, Chenshu Wu, Chaofan Yang, Yi Zhao, Kehong Huang, Chunyi Peng, Yunhao Liu and Zheng Yang. ChromaCode: A Fully Imperceptible Screen-Camera Communication System. In <i>Proceedings of 24th Annual International Conference on Mobile Computing and Networking (MobiCom'18)</i>.</p>"
+		},
+		{
+			"type": "share",
 			"link": "shares/4/index.html",
 			"caption": "过程数据挖掘可视化",
 			"date": "2017-01-05",
